@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context="com.zapata.yerson.guiaturistica3.sitio2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle">
+            <!-- TODO: Update blank fragment layout -->
+
+
+            <ImageView
+
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ecoturismo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/ecoturtitle"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ecoturinfo"
+                android:textColor="@color/white" />
+            <com.google.android.gms.maps.MapView android:id="@+id/mapSitio3"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

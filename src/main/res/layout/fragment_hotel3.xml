@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.zapata.yerson.guiaturistica3.Hotel3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle"
+            >
+            <!-- TODO: Update blank fragment layout -->
+
+
+            <ImageView
+
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/hoteltown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/hotelcoffetitle"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotelcoffeinfo"
+                android:textColor="@color/white" />
+
+
+            <com.google.android.gms.maps.MapView android:id="@+id/mapHotel3"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

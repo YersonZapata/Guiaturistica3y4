@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/principal"
+    tools:context="com.zapata.yerson.guiaturistica3.Principal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/santa"
+                android:textSize="25dp"
+
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center"
+                android:background="@drawable/parqueprincipal1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="@string/infoprincipal"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
